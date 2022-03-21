@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 public class RegusersApplication {
 
 	public static void main(String[] args) {
-//		System.setProperty("spring.devtools.restart.enabled", "false");
 		SpringApplication.run(RegusersApplication.class, args);
 	}
 
