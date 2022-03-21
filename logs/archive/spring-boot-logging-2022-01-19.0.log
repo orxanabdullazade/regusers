@@ -1,0 +1,462 @@
+2022-01-19 00:11:27,814 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h5m21s16ms).
+2022-01-19 00:28:34,068 INFO com.dmx.regusers.controller.RegUsersController [http-nio-8080-exec-6] iman.valiev66@mail.ru
+2022-01-19 00:40:30,943 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 00:40:30,963 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-01-19 00:40:30,995 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-01-19 00:40:38,104 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 68917 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 00:40:38,105 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 00:40:38,172 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 00:40:38,173 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 00:40:38,173 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 00:40:38,971 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 00:40:39,032 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2022-01-19 00:40:39,589 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-19 00:40:39,600 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 00:40:39,600 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 00:40:39,784 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 00:40:39,784 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1609 ms
+2022-01-19 00:40:39,991 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 00:40:40,053 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 00:40:40,245 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 00:40:40,352 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 00:40:40,355 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 00:40:40,730 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 00:40:40,748 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 00:40:41,836 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 00:40:41,847 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 00:40:42,226 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-19 00:40:42,675 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-01-19 00:40:42,722 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-19 00:40:42,737 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RegusersApplication in 5.271 seconds (JVM running for 6.503)
+2022-01-19 00:41:02,944 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 00:41:02,949 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-01-19 00:41:02,982 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-01-19 00:41:07,375 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 68945 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 00:41:07,376 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 00:41:07,424 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 00:41:07,425 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 00:41:07,425 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 00:41:08,085 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 00:41:08,145 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2022-01-19 00:41:08,710 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-19 00:41:08,719 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 00:41:08,720 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 00:41:08,858 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 00:41:08,858 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1432 ms
+2022-01-19 00:41:09,065 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 00:41:09,112 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 00:41:09,268 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 00:41:09,351 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 00:41:09,354 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 00:41:09,668 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 00:41:09,682 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 00:41:10,456 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 00:41:10,463 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 00:41:10,798 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-19 00:41:11,185 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-01-19 00:41:11,215 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-19 00:41:11,227 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RegusersApplication in 4.311 seconds (JVM running for 5.16)
+2022-01-19 00:46:16,873 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 00:46:16,878 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-01-19 00:46:16,940 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-01-19 00:46:19,805 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 69235 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 00:46:19,806 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 00:46:19,849 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 00:46:19,850 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 00:46:19,850 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 00:46:20,470 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 00:46:20,518 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2022-01-19 00:46:21,080 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-19 00:46:21,089 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 00:46:21,089 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 00:46:21,218 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 00:46:21,219 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1368 ms
+2022-01-19 00:46:21,419 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 00:46:21,465 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 00:46:21,608 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 00:46:21,693 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 00:46:21,696 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 00:46:22,034 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 00:46:22,050 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 00:46:22,873 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 00:46:22,881 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 00:46:23,220 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-19 00:46:23,598 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-01-19 00:46:23,636 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-19 00:46:23,651 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RegusersApplication in 4.273 seconds (JVM running for 5.866)
+2022-01-19 00:59:46,564 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 00:59:46,569 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-01-19 00:59:46,612 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-01-19 00:59:54,355 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 70039 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 00:59:54,356 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 00:59:54,405 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 00:59:54,406 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 00:59:54,407 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 00:59:55,137 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 00:59:55,321 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 172 ms. Found 1 JPA repository interfaces.
+2022-01-19 00:59:55,859 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-19 00:59:55,870 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 00:59:55,871 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 00:59:56,012 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 00:59:56,012 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1604 ms
+2022-01-19 00:59:56,299 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 00:59:56,349 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 00:59:56,504 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 00:59:56,589 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 00:59:56,593 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 00:59:56,896 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 00:59:56,910 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 00:59:57,752 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 00:59:57,763 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 00:59:58,156 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersController': Unsatisfied dependency expressed through field 'regUsersService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersService' defined in file [/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes/com/dmx/regusers/service/RegUsersService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dmx.regusers.mapper.RequestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-01-19 00:59:58,156 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 00:59:58,159 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-01-19 00:59:58,204 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-01-19 00:59:58,207 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-01-19 00:59:58,219 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-19 00:59:58,249 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.dmx.regusers.service.RegUsersService required a bean of type 'com.dmx.regusers.mapper.RequestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.dmx.regusers.mapper.RequestMapper' in your configuration.
+
+2022-01-19 01:00:27,510 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 70069 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 01:00:27,512 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 01:00:27,576 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 01:00:27,577 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 01:00:27,577 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 01:00:28,227 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 01:00:28,269 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-01-19 01:00:28,756 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8888 (http)
+2022-01-19 01:00:28,764 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 01:00:28,765 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 01:00:28,907 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 01:00:28,908 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1330 ms
+2022-01-19 01:00:29,062 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 01:00:29,093 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 01:00:29,186 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 01:00:29,253 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 01:00:29,256 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 01:00:29,515 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 01:00:29,526 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 01:00:30,191 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 01:00:30,198 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 01:00:30,510 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersController': Unsatisfied dependency expressed through field 'regUsersService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersService' defined in file [/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes/com/dmx/regusers/service/RegUsersService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dmx.regusers.mapper.RequestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-01-19 01:00:30,511 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 01:00:30,513 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-01-19 01:00:30,553 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-01-19 01:00:30,556 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-01-19 01:00:30,569 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-19 01:00:30,592 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.dmx.regusers.service.RegUsersService required a bean of type 'com.dmx.regusers.mapper.RequestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.dmx.regusers.mapper.RequestMapper' in your configuration.
+
+2022-01-19 01:00:52,775 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 70103 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 01:00:52,776 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 01:00:52,820 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 01:00:52,820 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 01:00:52,821 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 01:00:53,383 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 01:00:53,424 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-01-19 01:00:53,854 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8888 (http)
+2022-01-19 01:00:53,863 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 01:00:53,864 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 01:00:53,937 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 01:00:53,937 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1116 ms
+2022-01-19 01:00:54,159 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 01:00:54,192 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 01:00:54,293 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 01:00:54,363 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 01:00:54,366 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 01:00:54,653 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 01:00:54,664 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 01:00:55,368 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 01:00:55,376 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 01:00:55,705 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersController': Unsatisfied dependency expressed through field 'regUsersService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersService' defined in file [/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes/com/dmx/regusers/service/RegUsersService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dmx.regusers.mapper.RequestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-01-19 01:00:55,705 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 01:00:55,708 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-01-19 01:00:55,746 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-01-19 01:00:55,748 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-01-19 01:00:55,760 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-19 01:00:55,780 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.dmx.regusers.service.RegUsersService required a bean of type 'com.dmx.regusers.mapper.RequestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.dmx.regusers.mapper.RequestMapper' in your configuration.
+
+2022-01-19 20:52:50,080 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 70947 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 20:52:50,082 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 20:52:50,134 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 20:52:50,135 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 20:52:50,135 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 20:52:50,881 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 20:52:50,949 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2022-01-19 20:52:51,512 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-19 20:52:51,522 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 20:52:51,523 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 20:52:51,596 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 20:52:51,596 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1460 ms
+2022-01-19 20:52:51,821 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 20:52:51,884 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 20:52:52,082 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 20:52:52,187 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 20:52:52,191 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 20:52:52,529 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 20:52:52,544 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 20:52:53,492 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 20:52:53,509 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 20:52:53,847 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersController': Unsatisfied dependency expressed through field 'regUsersService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersService' defined in file [/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes/com/dmx/regusers/service/RegUsersService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dmx.regusers.mapper.RequestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-01-19 20:52:53,848 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 20:52:53,851 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-01-19 20:52:53,893 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-01-19 20:52:53,896 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-01-19 20:52:53,908 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-19 20:52:53,946 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.dmx.regusers.service.RegUsersService required a bean of type 'com.dmx.regusers.mapper.RequestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.dmx.regusers.mapper.RequestMapper' in your configuration.
+
+2022-01-19 21:23:25,099 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 72975 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 21:23:25,101 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 21:23:25,184 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 21:23:25,185 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 21:23:25,186 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 21:23:26,021 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 21:23:26,079 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2022-01-19 21:23:26,689 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-19 21:23:26,700 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 21:23:26,700 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 21:23:26,785 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 21:23:26,786 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1600 ms
+2022-01-19 21:23:27,005 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 21:23:27,064 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 21:23:27,252 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 21:23:27,360 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 21:23:27,364 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 21:23:27,832 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 21:23:27,856 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 21:23:31,250 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 21:23:31,259 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 21:23:31,590 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersController': Unsatisfied dependency expressed through field 'regUsersService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersService' defined in file [/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes/com/dmx/regusers/service/RegUsersService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dmx.regusers.mapper.RequestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-01-19 21:23:31,590 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 21:23:31,594 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-01-19 21:23:31,632 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-01-19 21:23:31,635 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-01-19 21:23:31,647 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-19 21:23:31,679 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.dmx.regusers.service.RegUsersService required a bean of type 'com.dmx.regusers.mapper.RequestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.dmx.regusers.mapper.RequestMapper' in your configuration.
+
+2022-01-19 21:26:41,685 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 73173 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 21:26:41,686 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 21:26:41,731 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 21:26:41,732 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 21:26:41,733 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 21:26:42,361 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 21:26:42,406 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2022-01-19 21:26:42,898 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-19 21:26:42,907 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 21:26:42,907 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 21:26:42,981 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 21:26:42,981 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1247 ms
+2022-01-19 21:26:43,156 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 21:26:43,191 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 21:26:43,298 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 21:26:43,374 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 21:26:43,377 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 21:26:43,673 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 21:26:43,683 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 21:26:44,474 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 21:26:44,483 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 21:26:44,761 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersController': Unsatisfied dependency expressed through field 'regUsersService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersService' defined in file [/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes/com/dmx/regusers/service/RegUsersService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dmx.regusers.mapper.RequestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-01-19 21:26:44,762 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 21:26:44,765 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-01-19 21:26:44,817 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-01-19 21:26:44,820 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-01-19 21:26:44,836 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-19 21:26:44,857 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.dmx.regusers.service.RegUsersService required a bean of type 'com.dmx.regusers.mapper.RequestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.dmx.regusers.mapper.RequestMapper' in your configuration.
+
+2022-01-19 21:48:43,679 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 74511 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 21:48:43,680 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-01-19 21:48:43,730 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/Users/apple/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+2022-01-19 21:48:43,731 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 21:48:43,731 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 21:48:44,454 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 21:48:44,502 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2022-01-19 21:48:45,090 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-19 21:48:45,103 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-01-19 21:48:45,103 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 21:48:45,203 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-19 21:48:45,203 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1471 ms
+2022-01-19 21:48:45,416 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 21:48:45,473 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 21:48:45,656 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 21:48:45,764 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-01-19 21:48:45,768 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 21:48:46,128 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-01-19 21:48:46,143 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 21:48:48,138 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 21:48:48,155 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 21:48:48,613 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersController': Unsatisfied dependency expressed through field 'regUsersService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersService' defined in file [/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes/com/dmx/regusers/service/RegUsersService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dmx.regusers.mapper.RequestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-01-19 21:48:48,614 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 21:48:48,620 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-01-19 21:48:48,694 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-01-19 21:48:48,699 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-01-19 21:48:48,711 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-19 21:48:48,739 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.dmx.regusers.service.RegUsersService required a bean of type 'com.dmx.regusers.mapper.RequestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.dmx.regusers.mapper.RequestMapper' in your configuration.
+
+2022-01-19 21:50:14,815 INFO org.springframework.boot.StartupInfoLogger [main] Starting RegusersApplication using Java 11.0.13 on Apples-MacBook-Pro.local with PID 74621 (/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes started by apple in /Users/apple/Documents/Workplace/Java Projects/regusers)
+2022-01-19 21:50:14,817 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2022-01-19 21:50:15,451 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-19 21:50:15,497 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2022-01-19 21:50:15,923 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-01-19 21:50:15,931 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-19 21:50:15,932 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 21:50:16,021 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-19 21:50:16,021 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1169 ms
+2022-01-19 21:50:16,214 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 21:50:16,251 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-19 21:50:16,354 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 21:50:16,424 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-01-19 21:50:16,427 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-01-19 21:50:16,702 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-01-19 21:50:16,714 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-01-19 21:50:17,551 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 21:50:17,559 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 21:50:17,862 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersController': Unsatisfied dependency expressed through field 'regUsersService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regUsersService' defined in file [/Users/apple/Documents/Workplace/Java Projects/regusers/target/classes/com/dmx/regusers/service/RegUsersService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dmx.regusers.mapper.RequestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-01-19 21:50:17,863 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 21:50:17,865 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-01-19 21:50:17,905 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-01-19 21:50:17,908 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2022-01-19 21:50:17,920 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-19 21:50:17,938 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.dmx.regusers.service.RegUsersService required a bean of type 'com.dmx.regusers.mapper.RequestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.dmx.regusers.mapper.RequestMapper' in your configuration.
+
