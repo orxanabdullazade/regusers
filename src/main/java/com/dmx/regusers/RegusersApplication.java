@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 public class RegusersApplication {
 
 	public static void main(String[] args) {
+		//test
 		SpringApplication.run(RegusersApplication.class, args);
 	}
 
