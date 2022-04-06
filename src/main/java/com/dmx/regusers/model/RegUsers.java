@@ -24,7 +24,7 @@ public class RegUsers {
     private BigInteger version;
 
     @Column(name = "HASHED_PASSWORD",columnDefinition = "CHAR",length = 64)
-    private Character hashedPassword;
+    private String hashedPassword;
 
     @Column(name = "STATUS")
     private Short status;

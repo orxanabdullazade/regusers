@@ -6,7 +6,7 @@ import org.mapstruct.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface RequestMapper {
     RegUsersDto toRegUserDto(RegUsers regUsers);
 }

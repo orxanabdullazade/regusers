@@ -6,5 +6,5 @@ import lombok.Data;
 public class RegUserUpdateDto {
     Short status;
     Short mobileStatus;
-    Character hashedPassword;
+    String hashedPassword;
 }

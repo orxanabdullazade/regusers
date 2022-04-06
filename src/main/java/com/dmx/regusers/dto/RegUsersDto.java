@@ -2,6 +2,7 @@ package com.dmx.regusers.dto;
 
 import com.dmx.regusers.model.RegUsers;
 import lombok.Data;
+import org.springframework.stereotype.Component;
 
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.Email;
@@ -17,11 +18,11 @@ public final class RegUsersDto implements Serializable {
 
     @NotNull(message = "This value is required.")
     @Email(message = "Email format not correct")
-    @Size(min = 3,max = 50,message = "Email size must be between {min} and {max}")
+    @Size(min = 3, max = 50, message = "Email size must be between {min} and {max}")
     private String loginName;
     private Short status;
     private Short mobileStatus;
-    private Character hashedPassword;
+    private String hashedPassword;
     private Date insertDate;
 
 //    public RegUsersDto(RegUsers entity) {
