@@ -63,7 +63,7 @@ public class RegUsersService implements Serializable {
 
     public RegUsersDto searchRegUser(RegUsersDto request) {
         Optional<RegUsers> regUser = regUsersRepository.findByLoginName(request.getLoginName());
-        if (regUser.isEmpty()) {
+        if (regUser.isPresent()) {
             throw new ResourceNotFoundException("Login name not found in searchRegUser : {}" + request.getLoginName());
         } else {
             return requestMapper.toRegUserDto(regUser.get());
