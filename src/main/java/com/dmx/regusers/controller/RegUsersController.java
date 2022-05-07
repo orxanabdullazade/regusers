@@ -14,6 +14,7 @@ import javax.validation.Valid;
 
 @Slf4j
 @RestController
+@CrossOrigin(origins = {"http://localhost:3000"})
 @RequestMapping("/eregusers")
 public class RegUsersController {
 
