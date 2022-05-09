@@ -3,6 +3,7 @@ import com.dmx.regusers.dto.RegUsersDto;
 import com.dmx.regusers.mapper.RequestMapper;
 import com.dmx.regusers.model.RegUsers;
 import com.dmx.regusers.repository.RegUsersRepository;
+import org.junit.Ignore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -28,6 +29,12 @@ public class RegUsersServiceTest {
     private  RegUsersService regUsersService;
 
     @Test
+    public void testGetAllRegUsers_itShouldReturnPageableUsers(){
+
+    }
+
+    @Test
+    @Ignore
     public void testGetOneRegUser() {
         //Given
         RegUsers regUsers=new RegUsers();
@@ -39,7 +46,6 @@ public class RegUsersServiceTest {
     }
 
 
-//
 //    @BeforeEach
 //    void setUp() {
 //        regUsersRepository= mock(RegUsersRepository.class);
